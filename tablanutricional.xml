@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE note SYSTEM "tablanutricional.dtd">
+<!DOCTYPE tabla SYSTEM "tablanutricional.dtd">
 <tabla>
     <alimento>
         <nombre>Leche entera</nombre>
