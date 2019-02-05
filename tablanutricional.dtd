@@ -1,0 +1,12 @@
+<!DOCTYPE tabla
+[
+<!ELEMENT tabla (alimento)>
+<!ELEMENT alimento (nombre,kcal,hc,prot,grasas,categoria,tipo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT kcal (#PCDATA)>
+<!ELEMENT hc (#PCDATA)>
+<!ELEMENT prot (#PCDATA)>
+<!ELEMENT grasas (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+]>
