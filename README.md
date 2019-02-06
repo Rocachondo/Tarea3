@@ -13,6 +13,6 @@ Se usa como referencia la tabla de http://www.portalfitness.com/nutricion/tabla_
 
 Como no me terminaba de quedar claro la cantidad de nodos solicitados puse 27 alimentos. Cada uno con sus respectivos elementos. No se usaron atributos en primera instancia siguiendo las recomendaciones de w3school y se optó por agregar elementos adicionales como categoría y la subcategoría tipo para definir los alimentos.
 
-Como quedaba muy simple el documento y el DTD, finalmente me decanté por incluir el atributo código como ID para hacer único cada uno de éstos. 
+Como quedaba muy simple el documento y el DTD, finalmente me decanté por incluir el atributo código como ID para hacer único cada uno de éstos. La ID hace referencia a la categoría (primer dígito), tipo (segundo dígito) y el alimento de esa clase (dos últimos dígitos). Se escoge esta opción para tratar de hacer el documento escalable en el tiempo, con vista de ser gestionado como una base de datos.
 
 Tras seguir hacendo comprobaciones con el validador de https://www.xmlvalidation.com/ no se consigue que reconozca correctamente el documento .dtd. Si pongo éste dentro del .xml lo valida correctamente, al igual que otros validadores con los que hice pruebas ( https://codebeautify.org/xmlvalidator# y https://www.truugo.com/xml_validator/ ) pero que lamentablemente no permiten usar un dtd externo. Como alternativa, subo un documento adicional llamado tablanutricional(xml+dtd).xml para que se pueda comprobar facilmente.
