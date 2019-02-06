@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tabla SYSTEM "tablanutricional.dtd">
 <tabla>
-    <alimento>
+    <alimento codigo="1101">
         <nombre>Leche entera</nombre>
         <kcal>57</kcal>
         <hc>4.5</hc>
@@ -10,7 +10,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Leche</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1102">
         <nombre>Leche desnatada</nombre>
         <kcal>45</kcal>
         <hc>4.7</hc>
@@ -19,7 +19,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Leche</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1201">
         <nombre>Yogur con cereales</nombre>
         <kcal>48</kcal>
         <hc>9</hc>
@@ -28,7 +28,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Yogures</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1202">
         <nombre>Yogur con fibras y fruta</nombre>
         <kcal>71</kcal>
         <hc>12.5</hc>
@@ -37,7 +37,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Yogures</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1203">
         <nombre>Yogur desnatado saborizado</nombre>
         <kcal>34.5</kcal>
         <hc>4.4</hc>
@@ -46,7 +46,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Yogures</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1301">
         <nombre>Queso Philadelfia light</nombre>
         <kcal>200</kcal>
         <hc>6.6</hc>
@@ -55,7 +55,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Quesos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1302">
         <nombre>Queso cottage</nombre>
         <kcal>95</kcal>
         <hc>2</hc>
@@ -64,7 +64,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Quesos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="1303">
         <nombre>Queso ricotta</nombre>
         <kcal>185</kcal>
         <hc>2.5</hc>
@@ -73,7 +73,7 @@
         <categoria>Lacteos</categoria>
         <tipo>Quesos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="2101">
         <nombre>Clara de huevo</nombre>
         <kcal>53</kcal>
         <hc>1</hc>
@@ -82,7 +82,7 @@
         <categoria>Huevos</categoria>
         <tipo>Huevos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="2102">
         <nombre>Huevo de codorniz</nombre>
         <kcal>179</kcal>
         <hc>3.6</hc>
@@ -91,7 +91,7 @@
         <categoria>Huevos</categoria>
         <tipo>Huevos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3101">
         <nombre>Bife angosto</nombre>
         <kcal>182</kcal>
         <hc>0</hc>
@@ -100,7 +100,7 @@
         <categoria>Carnes</categoria>
         <tipo>Vacuno</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3102">
         <nombre>Lomo magro</nombre>
         <kcal>148</kcal>
         <hc>0</hc>
@@ -109,7 +109,7 @@
         <categoria>Carnes</categoria>
         <tipo>Vacuno</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3201">
         <nombre>Carne de cerdo magra</nombre>
         <kcal>276</kcal>
         <hc>0</hc>
@@ -118,7 +118,7 @@
         <categoria>Carnes</categoria>
         <tipo>Cerdo</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3501">
         <nombre>Jamón cocido</nombre>
         <kcal>126</kcal>
         <hc>3</hc>
@@ -127,7 +127,7 @@
         <categoria>Carnes</categoria>
         <tipo>Fiambre y embutido</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3502">
         <nombre>Lomo</nombre>
         <kcal>153</kcal>
         <hc>3</hc>
@@ -136,7 +136,7 @@
         <categoria>Carnes</categoria>
         <tipo>Fiambre y embutido</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3301">
         <nombre>Carne de pavo</nombre>
         <kcal>268</kcal>
         <hc>0.5</hc>
@@ -145,7 +145,7 @@
         <categoria>Carnes</categoria>
         <tipo>Ave</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="3302">
         <nombre>Carne de pollo</nombre>
         <kcal>170</kcal>
         <hc>0</hc>
@@ -154,7 +154,7 @@
         <categoria>Carnes</categoria>
         <tipo>Ave</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="4101">
         <nombre>Banana</nombre>
         <kcal>85</kcal>
         <hc>22.2</hc>
@@ -163,7 +163,7 @@
         <categoria>Frutas</categoria>
         <tipo>Fruta fresca</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="4102">
         <nombre>Manzana</nombre>
         <kcal>58</kcal>
         <hc>15.2</hc>
@@ -172,7 +172,7 @@
         <categoria>Frutas</categoria>
         <tipo>Fruta fresca</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="4201">
         <nombre>Almendra</nombre>
         <kcal>547</kcal>
         <hc>19.6</hc>
@@ -181,7 +181,7 @@
         <categoria>Frutas</categoria>
         <tipo>Frutos secos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="4202">
         <nombre>Nuez</nombre>
         <kcal>664</kcal>
         <hc>13.2</hc>
@@ -190,7 +190,7 @@
         <categoria>Frutas</categoria>
         <tipo>Frutos secos</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="4301">
         <nombre>Ananá</nombre>
         <kcal>35</kcal>
         <hc>8.34</hc>
@@ -199,7 +199,7 @@
         <categoria>Frutas</categoria>
         <tipo>Fruta envasada</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="5101">
         <nombre>Arroz blanco</nombre>
         <kcal>343</kcal>
         <hc>78.6</hc>
@@ -208,7 +208,7 @@
         <categoria>Cereales</categoria>
         <tipo>Cereal</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="5102">
         <nombre>Avena arrollada</nombre>
         <kcal>387</kcal>
         <hc>62.5</hc>
@@ -217,7 +217,7 @@
         <categoria>Cereales</categoria>
         <tipo>Cereal</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="5201">
         <nombre>Tallarines de huevo</nombre>
         <kcal>287</kcal>
         <hc>56.8</hc>
@@ -226,7 +226,7 @@
         <categoria>Cereales</categoria>
         <tipo>Pasta</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="5202">
         <nombre>Fideos de harina integral</nombre>
         <kcal>359</kcal>
         <hc>70</hc>
@@ -235,7 +235,7 @@
         <categoria>Cereales</categoria>
         <tipo>Pasta</tipo>
     </alimento>
-    <alimento>
+    <alimento codigo="5301">
         <nombre>Pan de centeno</nombre>
         <kcal>245</kcal>
         <hc>50.5</hc>
