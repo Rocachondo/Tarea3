@@ -1,7 +1,9 @@
 <!DOCTYPE tabla
 [
-<!ELEMENT tabla (alimento)>
-<!ELEMENT alimento (nombre,kcal,hc,prot,grasas,categoria,tipo)>
+<!ELEMENT tabla (alimento+)>
+<!ELEMENT alimento (nombre,kcal,hc?,prot?,grasas?,categoria,tipo)>
+<!ATTLIST alimento codigo NMTOKEN #REQUIRED>
+<!ATTLIST alimento codigo ID #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT kcal (#PCDATA)>
 <!ELEMENT hc (#PCDATA)>
